@@ -94,12 +94,16 @@ namespace StackUsingLinkedList_CSharp
                         }
                         s.pop();
                         break;
+                    case '3':
+                        s.display();
+                        break;
+                    case '4':
+                        return;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break ;
                 }
             }
-        }
-
-
-
-       
+        }     
     }
 }
